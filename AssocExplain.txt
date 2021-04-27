@@ -1,0 +1,21 @@
+Association Rule Mining Apriori Algorithm:
+
+The association analysis was conducted in order to find associations between different neighborhoods within the City of Baltimore during a one day period in time. The relationship between neighborhood A and neighborhood B in the study output is directional, in other words, if A then B. The strength of these relationships is described by three metrics: support, confidence, and lift.
+
+	Support: How prevalent a rule is compared to the larger dataset. The relative frequency with which the rules show up.
+	o	It should be noted all neighborhoods within a rule item set must first themselves be identified as occurring very frequently before they are considered for pair matching frequency. 
+
+	Confidence: A measure of the reliability of the rule. 
+	o	For this study, the number of times neighborhoods (neighborhood A and neighborhood B) occurred together, given the total number of times neighborhood A occurs. 
+	o	Another way of considering confidence is: the likelihood that neighborhood B will occur if neighborhood A does. For example, if confidence =.85 for a particular rule, then in 85% of cases where neighborhood A occurs, neighborhood B will also. 
+	o	In terms of this example, if neighborhood A experiences a crime, the likelihood of neighborhood B experiencing an overdose will be 85%.
+
+	Lift: Measures the strength of the rules. It is the ratio of the observed support for each item in a rule over what the support would be if the items where completely independent and had no real connection. 
+	o	A lift value less than or close to one would indicate the neighborhoods are more than likely independent and paired by chance. 
+	o	A lift value greater than one indicates a more meaningful relationship between the zip codes in question.
+
+All results from this program are filtered to display the minimum values below:
+	Support >= .6
+	Lift >= 1
+	Confidence >= .75
+	

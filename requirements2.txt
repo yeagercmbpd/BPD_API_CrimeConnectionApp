@@ -1,0 +1,17 @@
+ipywidgets
+keplergl
+pandas
+numpy
+matplotlib
+geopandas
+qgrid
+webbrowser
+os
+mlxtend
+mlxtend
+requests
+shapely
+datetime
+h3
+warnings
+ipyaggrid
