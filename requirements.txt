@@ -4,10 +4,7 @@ pandas
 numpy
 matplotlib
 geopandas
-qgrid
-
 os
-
 mlxtend
 requests
 shapely
