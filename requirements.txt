@@ -5,9 +5,9 @@ numpy
 matplotlib
 geopandas
 qgrid
-webbrowser
+
 os
-mlxtend
+
 mlxtend
 requests
 shapely
