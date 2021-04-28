@@ -5,7 +5,6 @@ numpy
 matplotlib
 os
 mlxtend
-requests
 shapely
 datetime
 h3
