@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import qgrid
+
 import os
 from mlxtend.frequent_patterns import apriori
 from mlxtend.frequent_patterns import association_rules
