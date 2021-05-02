@@ -12,3 +12,4 @@ h3
 ipyaggrid
 voila
 voila-material
+ipympl
