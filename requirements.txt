@@ -10,3 +10,5 @@ shapely
 datetime
 h3
 ipyaggrid
+voila
+voila-material
