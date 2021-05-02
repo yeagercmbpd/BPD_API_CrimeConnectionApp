@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser --enable_nbextensions=True FinalApp_APIVersionVoila.ipynb
+web: voila --port=$PORT --no-browser --enable_nbextensions=True --show_tracebacks=True FinalApp_APIVersionVoila.ipynb
